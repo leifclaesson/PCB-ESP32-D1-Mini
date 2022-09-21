@@ -1,0 +1,310 @@
+{
+  "uuid": "58e03a32554ff123dac9a8dfe74f1eaf",
+  "path": "Offline/ESP32%20D1%20Mini",
+  "name": "ESP32 D1 Mini",
+  "content": "",
+  "created_at": "2022-09-06 12:43:28",
+  "updated_at": "2022-09-06 20:43:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "55704c17d812d94e4491f56f979ff08d",
+      "title": "ESP32 D1 Mini SCH",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6528a688311e481689ec4d5e17aa7ecd": 1,
+        "2f2c771dc147fb0210616ca49e419712": 3,
+        "e11771cc556d68362545db4859eeb82e": 1,
+        "7a0c79967d0e7ae293044fb82790899a": 4,
+        "7ead2c3f0e64d4777e91f81ba28fb127": 2,
+        "d4a844d81a8421ba55bf9bbe0176c427": 5,
+        "ed090a658e48446c833f1971f77df530": 1,
+        "588dac9f81df8f83843513972963b454": 1,
+        "c8c2c558fac9410d08cd9c984c6e32bd": 2,
+        "002d6e329608490c9b9ab52af0a5141c": 1,
+        "c99800e04af1474aaf1069c95dc7e57a": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          3,
+          "C0805",
+          "C1,C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A106KAYNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15850",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0805",
+          "C4,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Supplier Part": "C49678",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C0805",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21B105KBFNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C28323",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "e11771cc556d68362545db4859eeb82e"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A106KAYNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15850",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C49678",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "YELLOW",
+          2,
+          "LED0805-RD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "17-21SUYC/TR8",
+            "BOM_Supplier Part": "C2296",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "c8c2c558fac9410d08cd9c984c6e32bd"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x8",
+          2,
+          "HDR-TH_8P-P2.54-V-M-NOSILK",
+          "H1,H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw",
+            "BOM_Manufacturer Part": "210S-1*8P L=11.6MMGold-plated black",
+            "BOM_Supplier Part": "C124381",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f7c1025364dd41da9bd6e3cff08356cc",
+            "uuid": "c99800e04af1474aaf1069c95dc7e57a"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x5",
+          1,
+          "HDR-5X1/2.54-NOSILK",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "LCSC",
+            "BOM_Manufacturer Part": "Header-Male-2.54_1x5",
+            "puuid": "18330ee09630499b90a6785c146fab0c",
+            "uuid": "ed090a658e48446c833f1971f77df530"
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R0805",
+          "R1,R4,R5,R6,R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1002T5E",
+            "BOM_Supplier Part": "C17414",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "d4a844d81a8421ba55bf9bbe0176c427"
+          }
+        ],
+        [
+          "470Ω",
+          2,
+          "R0805",
+          "R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F4700T5E",
+            "BOM_Supplier Part": "C17710",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "7ead2c3f0e64d4777e91f81ba28fb127"
+          }
+        ],
+        [
+          "RESET",
+          1,
+          "SW-SMD_TSA245G00D-250",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C354944",
+            "BOM_Manufacturer": "BRIGHT",
+            "BOM_Manufacturer Part": "TSA245G00D-250",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b737dae9525f4a1aa6e5f5813b59abfe",
+            "uuid": "002d6e329608490c9b9ab52af0a5141c"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "WIFIM-SMD_38P-L19.2-W18.0-P1.27",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328062",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "ESP32",
+            "BOM_LCSC Assembly": "No",
+            "BOM_Paste Type": "expand",
+            "puuid": "02cdf0e435454a8ba00ddc0b594c4182",
+            "uuid": "6528a688311e481689ec4d5e17aa7ecd"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ]
+      ],
+      "updateTime": 1662471823,
+      "createTime": 1662443008,
+      "histories": [],
+      "created_at": "2022-09-06 12:43:28",
+      "updated_at": "2022-09-06 20:43:43"
+    },
+    {
+      "uuid": "cfbdb01000cbe45c186674466e79c809",
+      "puuid": "58e03a32554ff123dac9a8dfe74f1eaf",
+      "title": "PCB_ESP32 D1 Mini",
+      "filename": "PCB_ESP32 D1 Mini.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a267edbe7c3c4a16b85fd51e936458d0": 2,
+        "02cdf0e435454a8ba00ddc0b594c4182": 1,
+        "f7c1025364dd41da9bd6e3cff08356cc": 2,
+        "18330ee09630499b90a6785c146fab0c": 1,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 7,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 1,
+        "769626f169ec49d9867bc27eb696b6b9": 5,
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "b737dae9525f4a1aa6e5f5813b59abfe": 1,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1
+      },
+      "BOM": [],
+      "updateTime": 1662468488,
+      "createTime": 1662445479,
+      "histories": [],
+      "created_at": "2022-09-06 13:24:39",
+      "updated_at": "2022-09-06 19:48:08"
+    },
+    {
+      "uuid": "f0741d5e400b51fcdcf22ad1abfd185a",
+      "puuid": "58e03a32554ff123dac9a8dfe74f1eaf",
+      "title": "PCB_ESP32 D1 Mini mirror",
+      "filename": "PCB_ESP32 D1 Mini mirror.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f7c1025364dd41da9bd6e3cff08356cc": 2,
+        "18330ee09630499b90a6785c146fab0c": 1,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 7,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 1,
+        "769626f169ec49d9867bc27eb696b6b9": 5,
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "b737dae9525f4a1aa6e5f5813b59abfe": 1,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "a267edbe7c3c4a16b85fd51e936458d0": 2,
+        "02cdf0e435454a8ba00ddc0b594c4182": 1
+      },
+      "BOM": [],
+      "updateTime": 1662455914,
+      "createTime": 1662455914,
+      "histories": [],
+      "created_at": "2022-09-06 16:18:34",
+      "updated_at": "2022-09-06 16:18:34"
+    }
+  ],
+  "sort": [],
+  "title": "ESP32 D1 Mini",
+  "foldername": "ESP32 D1 Mini",
+  "schfilename": "ESP32 D1 Mini.json",
+  "schfilemtime": 1662471823538
+}
